@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wibell</string>
+
+    <string name="app_title">Wibell</string>
+    <string name="app_back">返回</string>
+    <string name="app_act">添加</string>
+
+
+    <string name="ip">IP</string>
+    <string name="alias">别名</string>
+    <string name="token">令牌</string>
+    <string name="submit">提   交</string>
+</resources>

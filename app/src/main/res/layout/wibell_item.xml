@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+    <!-- 编号 -->
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_vertical|center"
+        android:gravity="center_vertical|center"
+        android:singleLine="false"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <!-- 别名/IP -->
+    <TextView
+        android:id="@+id/alias"
+        android:layout_width="230sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_vertical|center"
+        android:gravity="center_vertical|center"
+        android:singleLine="false"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
